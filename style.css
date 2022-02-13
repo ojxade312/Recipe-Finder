@@ -1,0 +1,61 @@
+body {
+    background-color: #F4EBD0;
+    font-family: Garamond;
+}
+
+h2 {
+    text-align: center;
+    font-size: 48px;
+    color: #E5E6F4;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuVV9UIivBdQLXBPXvoltiEWRrRFewpFiGAg&usqp=CAU);
+    padding: 200px;
+    /* background-size: 100%; */
+}
+
+#food-input {
+    margin-left: 700px;
+    margin-top: 30px;
+    height: 30px;
+    width: 400px;
+}
+
+#recipe-button {    
+    height: 40px;
+    width: 300px;
+    margin-left: 755px;
+    font-family: Garamond;
+    font-size: 1.4rem;
+}
+
+
+.container {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 0px;
+    row-gap: 10px;
+    margin-top: 200px;
+    margin-left: 250px;
+}
+.food-photo {
+    height: 400px;
+   width: 400px;
+   margin-left: 250px;
+   border-radius:20%;
+   margin-left:670px;
+   background:url(ttps://identity-mag.com/wp-content/uploads/2016/08/hangry_feature.jpg);
+   border: 20px solid rgba(74, 74, 74, 0.075);
+}
+.ingredients {
+    font-size: 1.3rem;
+    border: 20px solid rgba(74, 74, 74, 0.075);
+    color:black;
+}
+   
+.meal {
+    font-size: 3rem;
+}
+
+/* .recipe-text {
+    
+} */
